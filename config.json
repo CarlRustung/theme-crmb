@@ -1,0 +1,79 @@
+{
+    "title": "Carl Rustung",
+    "author": {
+    	"name": "Carl Rustung",
+    	"avatar": "https://micro.blog/carlrustung/avatar.jpg",
+    	"username": "carlrustung"
+    },
+    "baseURL": "https://carlrustung.micro.blog/",
+	"mediaTypes": {
+		"application/json": {
+			"suffixes": [ "json" ]
+		}
+	},
+	"outputFormats": {
+		"RSS": {
+			"baseName": "feed"
+		},
+		"JSON": {
+			"baseName": "feed"
+		},
+		"RSD": {
+			"mediaType": "application/xml",
+			"baseName": "rsd",
+			"isPlainText": true,
+			"notAlternative": true
+		},
+		"ArchiveJSON": {
+			"mediaType": "application/json",
+			"path": "archive",
+			"baseName": "index",
+			"isPlainText": true,
+			"notAlternative": true
+		},
+		"PhotosJSON": {
+			"mediaType": "application/json",
+			"path": "photos",
+			"baseName": "index",
+			"isPlainText": true,
+			"notAlternative": true
+		}
+	},
+	"outputs": {
+		"home": [ "HTML", "RSS", "JSON", "RSD", "ArchiveJSON", "PhotosJSON" ],
+		"page": [ "HTML" ],
+		"section": [ "HTML" ],
+		"taxonomy": [ "HTML", "RSS", "JSON" ],
+		"taxonomyTerm": [ "HTML", "RSS", "JSON" ]
+	},
+	"taxonomies": {
+		"category": "categories"
+	},	
+	"rssLimit": 25,
+	"uglyURLs": false,
+	"blackfriday": {
+		"fractions": false
+	},
+	"markup": {
+		"goldmark": {
+			"renderer": {
+			  "unsafe": true
+			}
+		}
+	},
+	"enableRobotsTXT": true,
+	"languageCode": "[LANGUAGE]",
+	"paginate": 25,
+	"params": {
+		"description": "Follow <a href=\"https://micro.blog/carlrustung\">@carlrustung on Micro.blog</a>.",
+		"github_username": "carlrustung",
+		"site_id": "1",
+		"paginate_home": false,
+		"paginate_categories": false,
+		"paginate_replies": false,
+		"theme_seconds": "0",
+		"plugins_css": [],
+		"plugins_js": [],
+		"plugins_html": []
+	}
+}
