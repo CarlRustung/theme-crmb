@@ -22,14 +22,15 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body {
-  color: #2a2a2a;
-  font-size: 18px;
-  line-height: 1.5;
+	color: #2a2a2a;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #fff;
 }
 
 .site-wrapper {
-  max-width: 40rem;
-  margin: 0 auto;
+	max-width: 40rem;
+	margin: 4rem auto;
 }
 
 cite {
@@ -64,11 +65,13 @@ a:hover {
 /* SHORT POSTS */
 
 .short-post {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin: 2rem 0;
-  padding: 1.4rem 1.6rem 1.6rem;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin: 2rem 0;
+	padding: 1.4rem 1.6rem 1.6rem;
+	background: #fff;
+	box-shadow: 0px 4px 7px rgba(100, 100, 100, .08);
 }
 
 .short-post .mb-post-icon {
