@@ -42,8 +42,16 @@ body {
   margin: 2rem 0;
 }
 
-.short-post p:last-child {
-  margin: 0;
+.short-post .e-content p {
+  margin: .6rem;
+}
+
+.short-post .e-content p:first-child {
+  margin-top: 0;
+}
+
+.short-post .e-content p:last-child {
+  margin-bottom: 0;
 }
 
 .short-post .post-meta {
