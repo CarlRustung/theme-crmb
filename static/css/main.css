@@ -120,9 +120,11 @@ body {
 /* QUOTES */
 
 blockquote {
-  display: block;
-  box-sizing: border-box;
-  border-left: 2px solid #ddd;
+	display: block;
+	box-sizing: border-box;
+	border-left: 1px solid #ddd;
+	margin: 2rem 0;
+	padding: .6rem 0 .6rem 1.6rem;
 }
 
 blockquote footer {
