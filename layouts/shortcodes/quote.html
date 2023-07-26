@@ -1,4 +1,4 @@
-<blockquote {{ with .Get "link" }} cite="{{ . }}"{{ end }}>
+<blockquote {{ with .Get "link" }} cite="{{ . | safeURL }}"{{ end }}>
     {{ .Inner }}
     <footer>
         <div class="attribution">{{ .Get "attr" }}</div>

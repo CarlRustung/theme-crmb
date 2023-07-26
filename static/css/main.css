@@ -21,6 +21,10 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+cite {
+  font-style: normal;
+}
+
 body {
   color: #2a2a2a;
   font-size: 18px;
@@ -33,7 +37,7 @@ body {
 }
 
 .post-meta {
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .post-meta a {
@@ -110,4 +114,16 @@ body {
   display: inline;
   margin: 0;
   padding: 0;
+}
+
+
+/* QUOTES */
+
+blockquote {
+  border-left: 2px solid #ddd;
+}
+
+blockquote footer {
+  margin-top: 1rem;
+  font-size: .9rem;
 }
