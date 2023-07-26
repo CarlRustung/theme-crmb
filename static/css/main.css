@@ -48,11 +48,7 @@ body {
   border-radius: 4px;
   box-sizing: border-box;
   margin: 2rem 0;
-}
-
-.short-post .post-meta {
-  padding: .4rem 1rem .6rem;
-  border-bottom: 1px solid #ddd;
+  padding: 1rem;
 }
 
 .short-post .mb-post-icon {
@@ -62,7 +58,7 @@ body {
 }
 
 .short-post .e-content {
-  padding: 1rem;
+  margin-top: 1rem;
 }
 
 .short-post .e-content p {
