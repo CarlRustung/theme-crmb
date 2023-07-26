@@ -48,7 +48,8 @@ a {
 	text-decoration-color: #227ce2;
 }
 
-a:hover {
+a:hover,
+.site-title:hover {
 	color: #00aa55;
 	text-decoration-color: #2fc57a;
 }
@@ -60,6 +61,12 @@ a:hover {
 .post-meta a,
 .long-post h1 a {
   text-decoration: none;
+}
+
+.site-title {
+	font-weight: 700;
+	color: inherit;
+	text-decoration: none;
 }
 
 /* SHORT POSTS */
