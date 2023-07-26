@@ -43,7 +43,7 @@ body {
 }
 
 .short-post .e-content p {
-  margin: .6rem;
+  margin: .6rem 0;
 }
 
 .short-post .e-content p:first-child {
@@ -52,6 +52,12 @@ body {
 
 .short-post .e-content p:last-child {
   margin-bottom: 0;
+}
+
+.short-post .e-content ul,
+.short-post .e-content ol{
+  mmargin: 0;
+  padding: 0 1.7rem;
 }
 
 .short-post .post-meta {
