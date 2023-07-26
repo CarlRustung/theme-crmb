@@ -2,7 +2,7 @@
     {{ .Inner | markdownify }}
     <footer>
         <div class="attribution">{{ .Get "attr" }}</div>
-        <cite>{{ .Get "source" }}</cite>
+        {{ if .Get "link" }}<a href="{{ .Get "link" | safeURL }}">{{ end }}<cite>{{ .Get "source" }}</cite>{{ if .Get "link" }}</a>{{ end }}
         {{ with .Get "add" }}
         <div>{{ . }}</div>
         {{ end }}
