@@ -23,9 +23,16 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
   font-size: 18px;
+  line-height: 1.5;
 }
 
 .site-wrapper {
-  max-width: 704px;
+  max-width: 40rem;
   margin: 0 auto;
+}
+
+.short-post {
+  border: 1px solid #999;
+  box-sizing: border-box;
+  padding: 2rem;
 }
