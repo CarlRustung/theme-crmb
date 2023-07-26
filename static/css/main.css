@@ -22,6 +22,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body {
+  color: #222;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -35,12 +36,22 @@ body {
 /* SHORT POSTS */
 
 .short-post {
-  border: 1px solid #999;
+  border: 1px solid #ddd;
+  border-radius: 3px;
   box-sizing: border-box;
-  padding: 1rem;
   margin: 2rem 0;
 }
 
 .short-post p:last-child {
   margin: 0;
+}
+
+.short-post .post-meta {
+  padding: .4rem 1rem;
+  font-size: .8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.short-post .e-content {
+  padding: 1rem;
 }
