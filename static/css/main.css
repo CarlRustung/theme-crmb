@@ -25,7 +25,7 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
   color: #2a2a2a;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -51,6 +51,10 @@ a:hover {
 
 .post-meta {
   font-size: .9rem;
+}
+
+.post-meta a {
+  text-decoration: none;
 }
 
 /* SHORT POSTS */
@@ -108,7 +112,16 @@ a:hover {
 /* LONG POST */
 
 .long-post {
-  margin: 3rem 0;
+  margin: 5rem 0;
+}
+
+.long-post header {
+  margin-bottom: 2rem;
+}
+
+.long-post h1 {
+  font-size: 2.4rem;
+  margin: 0 0 .2rem;
 }
 
 .post-cat-list {
