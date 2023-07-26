@@ -1,5 +1,1 @@
 enableInlineShortcodes: true
-
-goldmark:
-    extensions:
-      linkify: false

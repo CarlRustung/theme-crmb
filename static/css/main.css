@@ -130,7 +130,7 @@ a:hover {
   line-height: 1.2;
 }
 
-.long-post footer {
+.post-footer {
   border-top: 1px solid #ddd;
 	margin-top: 2rem;
   padding-top: .4rem;
@@ -151,10 +151,12 @@ a:hover {
 
 .post-cat-list li::before {
   content: ', ';
+  margin-left: -.25rem;
 }
 
 .post-cat-list li:last-child::before {
   content: ' and ';
+  margin: 0;
 }
 
 .post-cat-list li:first-child::before {
