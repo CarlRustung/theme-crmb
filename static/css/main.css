@@ -92,3 +92,10 @@ body {
 .short-post .e-content ol li:last-child {
   margin-bottom: 0;
 }
+
+
+/* LONG POST */
+
+.long-post {
+  margin: 3rem 0;
+}
