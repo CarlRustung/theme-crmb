@@ -149,16 +149,16 @@ a:hover {
   padding: 0;
 }
 
-.post-cat-list li::after {
+.post-cat-list li::before {
   content: ', ';
-}
-
-.post-cat-list li:last-child::after {
-  display: none;
 }
 
 .post-cat-list li:last-child::before {
   content: ' and ';
+}
+
+.post-cat-list li:first-child::before {
+  display: none;
 }
 
 
