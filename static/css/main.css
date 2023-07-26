@@ -31,8 +31,16 @@ body {
   margin: 0 auto;
 }
 
+
+/* SHORT POSTS */
+
 .short-post {
   border: 1px solid #999;
   box-sizing: border-box;
-  padding: 2rem;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.short-post p:last-child {
+  margin: 0;
 }
