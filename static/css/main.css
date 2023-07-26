@@ -21,8 +21,6 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-
-
 body {
   color: #2a2a2a;
   font-size: 18px;
@@ -127,8 +125,15 @@ a:hover {
 }
 
 .long-post h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin: 0 0 .2rem;
+  line-height: 1.2;
+}
+
+.long-post footer {
+  border-top: 1px solid #ddd;
+	margin-top: 2rem;
+  padding-top: .4rem;
 }
 
 .post-cat-list {
@@ -142,6 +147,18 @@ a:hover {
   display: inline;
   margin: 0;
   padding: 0;
+}
+
+.post-cat-list li::after {
+  content: ', ';
+}
+
+.post-cat-list li:last-child::after {
+  display: none;
+}
+
+.post-cat-list li:last-child::before {
+  content: ' and ';
 }
 
 
