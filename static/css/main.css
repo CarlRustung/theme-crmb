@@ -38,6 +38,11 @@ cite {
   font-style: normal;
 }
 
+mark {
+	background: #fff6a6;
+	color: #483c0c;
+}
+
 a {
 	color: #1460aa;
 	text-decoration-thickness: 1px;
@@ -53,7 +58,8 @@ a:hover {
   font-size: .9rem;
 }
 
-.post-meta a {
+.post-meta a,
+.long-post h1 a {
   text-decoration: none;
 }
 
@@ -113,6 +119,7 @@ a:hover {
 
 .long-post {
   margin: 5rem 0;
+  font-size: 1.25rem;
 }
 
 .long-post header {
