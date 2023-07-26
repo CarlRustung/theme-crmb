@@ -22,7 +22,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body {
-  color: #222;
+  color: #2a2a2a;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -37,7 +37,7 @@ body {
 
 .short-post {
   border: 1px solid #ddd;
-  border-radius: 3px;
+  border-radius: 4px;
   box-sizing: border-box;
   margin: 2rem 0;
 }
@@ -47,11 +47,17 @@ body {
 }
 
 .short-post .post-meta {
-  padding: .4rem 1rem;
+  padding: .6rem 1rem 0;
   font-size: .8rem;
   border-bottom: 1px solid #ddd;
 }
 
 .short-post .e-content {
-  padding: 1rem;
+  padding: .6rem 1rem 1rem;
+}
+
+.short-post .mb-post-icon {
+  position: relative;
+  top: 4px;
+  margin-right: 3px;
 }
