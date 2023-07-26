@@ -32,6 +32,14 @@ body {
   margin: 0 auto;
 }
 
+.post-meta {
+  font-size: .8rem;
+}
+
+.post-meta a {
+  color: #666;
+}
+
 
 /* SHORT POSTS */
 
@@ -44,12 +52,7 @@ body {
 
 .short-post .post-meta {
   padding: .4rem 1rem .6rem;
-  font-size: .8rem;
   border-bottom: 1px solid #ddd;
-}
-
-.short-post .post-meta a {
-  color: #666;
 }
 
 .short-post .mb-post-icon {
@@ -98,4 +101,17 @@ body {
 
 .long-post {
   margin: 3rem 0;
+}
+
+.post-cat-list {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-cat-list li {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
