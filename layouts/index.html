@@ -11,8 +11,8 @@
       <span class="post-meta">
         <span>Posted </span>
         <a href="{{ .Permalink }}" class="u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "Jan 2, 2006" }}</time></a>
-        <span> under </span>
         {{ with .GetTerms "categories" }}
+          <span> under </span>
           <ul class="post-cat-list">
           {{ range . }}
             <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>

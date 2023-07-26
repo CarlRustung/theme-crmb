@@ -21,9 +21,7 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-cite {
-  font-style: normal;
-}
+
 
 body {
   color: #2a2a2a;
@@ -34,6 +32,21 @@ body {
 .site-wrapper {
   max-width: 40rem;
   margin: 0 auto;
+}
+
+cite {
+  font-style: normal;
+}
+
+a {
+	color: #1460aa;
+	text-decoration-thickness: 1px;
+	text-decoration-color: #227ce2;
+}
+
+a:hover {
+	color: #00aa55;
+	text-decoration-color: #2fc57a;
 }
 
 .post-meta {
