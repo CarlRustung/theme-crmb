@@ -1,5 +1,5 @@
 <blockquote {{ with .Get "link" }} cite="{{ . | safeURL }}"{{ end }}>
-    {{ .Inner }}
+    {{ .Inner | markdownify }}
     <footer>
         <div class="attribution">{{ .Get "attr" }}</div>
         <cite>{{ .Get "source" }}</cite>

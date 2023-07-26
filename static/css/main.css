@@ -120,6 +120,8 @@ body {
 /* QUOTES */
 
 blockquote {
+  display: block;
+  box-sizing: border-box;
   border-left: 2px solid #ddd;
 }
 
