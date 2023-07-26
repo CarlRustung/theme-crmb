@@ -54,7 +54,8 @@ a:hover,
 	text-decoration-color: #2fc57a;
 }
 
-.post-meta {
+.post-meta,
+.site-footer {
   font-size: .9rem;
 }
 
@@ -67,6 +68,11 @@ a:hover,
 	font-weight: 700;
 	color: inherit;
 	text-decoration: none;
+}
+
+.site-footer {
+  font-size: .9rem;
+  margin-top: 4rem;
 }
 
 /* SHORT POSTS */
