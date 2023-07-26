@@ -54,10 +54,14 @@ body {
   margin-bottom: 0;
 }
 
-.short-post .e-content ul,
-.short-post .e-content ol{
+.short-post .e-content ul {
   margin: 0;
-  padding: 0 1.7rem;
+  padding: 0 1.2rem;
+}
+
+.short-post .e-content ol {
+  margin: 0;
+  padding: 0 1.5rem;
 }
 
 .short-post .post-meta {
