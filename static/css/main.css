@@ -20,3 +20,12 @@ html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
+
+body {
+  font-size: 18px;
+}
+
+.site-wrapper {
+  max-width: 704px;
+  margin: 0 auto;
+}
