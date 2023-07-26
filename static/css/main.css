@@ -42,6 +42,26 @@ body {
   margin: 2rem 0;
 }
 
+.short-post .post-meta {
+  padding: .6rem 1rem .8rem;
+  font-size: .8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.short-post .post-meta a {
+  color: #666;
+}
+
+.short-post .mb-post-icon {
+  position: relative;
+  top: 4px;
+  margin-right: 3px;
+}
+
+.short-post .e-content {
+  padding: .6rem 1rem 1rem;
+}
+
 .short-post .e-content p {
   margin: .6rem 0;
 }
@@ -71,19 +91,4 @@ body {
 .short-post .e-content ul li:last-child
 .short-post .e-content ol li:last-child {
   margin-bottom: 0;
-}
-
-.short-post .post-meta {
-  padding: .6rem 1rem 0;
-  font-size: .8rem;
-}
-
-.short-post .e-content {
-  padding: .6rem 1rem 1rem;
-}
-
-.short-post .mb-post-icon {
-  position: relative;
-  top: 4px;
-  margin-right: 3px;
 }
