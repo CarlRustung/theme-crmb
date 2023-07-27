@@ -83,6 +83,23 @@ a:hover {
   text-decoration: none;
 }
 
+#splash {
+  font-size: 1.6rem;
+  margin: 4rem 0;
+}
+
+#splash h1 {
+	font-weight: 800;
+	font-size: 5rem;
+	line-height: 1.2;
+	letter-spacing: -.02rem;
+	margin: 0 0 1rem;
+}
+
+#splash .more-about {
+  font-size: .9rem;
+}
+
 /* SHORT POSTS */
 
 .short-post {
