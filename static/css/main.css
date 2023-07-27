@@ -69,6 +69,17 @@ a:hover {
 	font-weight: 700;
 }
 
+#site-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#site-nav li {
+  display: inline-block;
+  margin: 0;
+}
+
 #site-footer {
   font-size: .9rem;
   margin-top: 4rem;
