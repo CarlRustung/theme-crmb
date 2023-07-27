@@ -84,7 +84,6 @@ a:hover {
 }
 
 #splash {
-  font-size: 1.6rem;
   margin: 4rem 0;
 }
 
@@ -96,8 +95,19 @@ a:hover {
 	margin: 0 0 1rem;
 }
 
+#splash .about {
+  font-size: 1.6rem;
+  margin: 1.4rem 0 .6rem;
+}
+
 #splash .more-about {
   font-size: .9rem;
+  margin: 0;
+}
+
+#home-feed-header {
+  font-size: 1.6rem;
+  margin: 5rem 0 0;
 }
 
 /* SHORT POSTS */

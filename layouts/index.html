@@ -2,12 +2,12 @@
 
 <div id="splash">
   <h1>Hello!</h1>
-  <p>{{ .Site.Params.itunes_description | safeHTML }}</p>
+  <p class="about">{{ .Site.Params.itunes_description | safeHTML }}</p>
   <p class="more-about">(<a href="/about">More about me</a>)</p>
 </div>
 
 <div class="home h-feed">
-  <h2 id="home-feed-header">Latest posts</h2>
+  <h2 id="home-feed-header">Latest posts:</h2>
 
 	{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 20) }}
 	{{ range $paginator.Pages }}
