@@ -32,6 +32,18 @@ cite {
   font-style: normal;
 }
 
+code {
+  background: #2a2a2a;
+  display: inline-block;
+  padding: .1rem .4rem;
+  color: #eee;
+  font-size: 1rem;
+  border-radius: 4px;
+  position: relative;
+  top: -1px;
+  margin: 0 3px 0 0;
+}
+
 mark {
 	background: #fff6a6;
 	color: #483c0c;
