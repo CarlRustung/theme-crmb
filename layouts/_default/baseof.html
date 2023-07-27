@@ -5,16 +5,10 @@
 
   <body>
 
-    <div class="site-wrapper">
-
+    <div id="site-wrapper">
       {{ partial "header.html" . }}
-
-      <div class="page-content">
       {{ block "main" . }}{{ end }}
-      </div>
-
       {{ partial "footer.html" . }}
-    
     </div>
     
   </body>
