@@ -16,16 +16,31 @@
   src: url("/fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 
+:root {
+  --color-bg: #fff;
+  --color-border-pri: #ddd;
+  --color-border-sec: #e6e6e6;
+  --color-text: #2a2a2a;
+  --color-link: #1460aa;
+  --color-link-decor: #227ce2;
+  --color-link-hover: #00aa55;
+  --color-link-hover-decor: #2fc57a;
+  --color-mark-bg: #fff6a6;
+  --color-mark-text: #483c0c;
+  --color-code-bg: #064242;
+  --color-code-text: #2cee8d;
+}
+
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
 
 body {
-	color: #2a2a2a;
+  background: var(--color-bg);
+	color: var(--color-text);
 	font-size: 18px;
 	line-height: 1.5;
-	background: #fff;
 }
 
 cite {
@@ -33,10 +48,10 @@ cite {
 }
 
 code {
-	background: #064242;
+	background: var(--color-code-bg);
 	display: inline-block;
 	padding: .1rem .4rem;
-	color: #2cee8d;
+	color: var(--color-code-text);
 	font-size: 1rem;
 	border-radius: 4px;
 	position: relative;
@@ -45,19 +60,19 @@ code {
 }
 
 mark {
-	background: #fff6a6;
-	color: #483c0c;
+	background: var(--color-mark-bg);
+	color: var(--color-mark-text);
 }
 
 a {
-	color: #1460aa;
+	color: var(--color-link);
 	text-decoration-thickness: 1px;
-	text-decoration-color: #227ce2;
+	text-decoration-color: var(--color-link-decor);
 }
 
 a:hover {
-	color: #00aa55;
-	text-decoration-color: #2fc57a;
+	color: var(--color-link-hover);
+	text-decoration-color: var(--color-link-hover-decor);
 }
 
 #site-wrapper {
@@ -125,12 +140,12 @@ a:hover {
 /* SHORT POSTS */
 
 .short-post {
-	border: 1px solid #e6e6e6;
+	border: 1px solid var(--color-border-sec);
 	border-radius: 4px;
 	box-sizing: border-box;
 	margin: 3rem 0;
 	padding: 1.4rem 1.6rem 1.6rem;
-	background: #fff;
+	background: var(--color-bg);
 	box-shadow: 0px 4px 7px rgba(100, 100, 100, .08);
 }
 
@@ -194,7 +209,7 @@ a:hover {
 }
 
 .post-footer {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--color-border-pri);
 	margin-top: 2rem;
   padding-top: .4rem;
 }
@@ -232,7 +247,7 @@ a:hover {
 blockquote {
 	display: block;
 	box-sizing: border-box;
-	border-left: 1px solid #ddd;
+	border-left: 1px solid var(--color-border-pri);
 	margin: 2rem 0;
 	padding: .6rem 0 .6rem 1.6rem;
 }
