@@ -43,7 +43,7 @@ body {
 
 body.night-mode {
 	--color-bg: #161618;
-	--color-border-pri: #2c2d3c;
+	--color-border-pri: #485b59;
 	--color-border-sec: #2c2d3c;
 	--color-text: #c4d7d5;
 	--color-link: #1bd779;
@@ -280,7 +280,7 @@ blockquote footer {
 
   body { 
     --color-bg: #161618;
-    --color-border-pri: #2c2d3c;
+    --color-border-pri: #485b59;
     --color-border-sec: #2c2d3c;
     --color-text: #c4d7d5;
     --color-link: #1bd779;
