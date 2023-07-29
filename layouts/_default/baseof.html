@@ -10,7 +10,29 @@
       {{ block "main" . }}{{ end }}
       {{ partial "footer.html" . }}
     </div>
-    
+  
+    <script>
+      const btn = document.querySelector(".theme-toggle");
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      const currentTheme = localStorage.getItem("theme");
+      
+      if (currentTheme == "dark") {
+        document.body.classList.toggle("night-mode");
+      } else if (currentTheme == "light") {
+        document.body.classList.toggle("day-mode");
+      }
+
+      btn.addEventListener("click", function() {
+        if (prefersDarkScheme.matches) {
+          document.body.classList.toggle("day-mode");
+          var theme = document.body.classList.contains("day-mode") ? "light" : "dark";
+        } else {
+          document.body.classList.toggle("night-mode");
+          var theme = document.body.classList.contains("night-mode") ? "dark" : "light";
+        }
+        localStorage.setItem("theme", theme);
+      });
+    </script>
   </body>
 
 </html>
