@@ -16,7 +16,12 @@
   src: url("/fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 
-html { font-family: 'Inter', sans-serif; }
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+	line-height: 1.5;
+}
+
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
@@ -30,10 +35,10 @@ body {
   --color-link-decor: #227ce2;
   --color-link-hover: #00aa55;
   --color-link-hover-decor: #2fc57a;
-  --color-mark-bg: #fff6a6;
-  --color-mark-text: #483c0c;
-  --color-code-bg: #064242;
-  --color-code-text: #2cee8d;
+  --color-mark-bg: #e4f9ff;
+  --color-mark-text: #2a2f44;
+  --color-code-bg: #2f3e5c;
+  --color-code-text: #fff;
 }
 
 body.night-mode {
@@ -54,8 +59,6 @@ body.night-mode {
 body {
   background: var(--color-bg);
 	color: var(--color-text);
-	font-size: 18px;
-	line-height: 1.5;
 }
 
 cite {
@@ -290,6 +293,10 @@ blockquote footer {
     --color-code-text: #2cee8d;
   }
 
+  .short-post {
+    box-shadow: none;
+  }
+
   body.day-mode {
     --color-bg: #fff;
     --color-border-pri: #ddd;
@@ -299,13 +306,19 @@ blockquote footer {
     --color-link-decor: #227ce2;
     --color-link-hover: #00aa55;
     --color-link-hover-decor: #2fc57a;
-    --color-mark-bg: #fff6a6;
-    --color-mark-text: #483c0c;
-    --color-code-bg: #064242;
-    --color-code-text: #2cee8d;
+    --color-mark-bg: #e4f9ff;
+    --color-mark-text: #2a2f44;
+    --color-code-bg: #2f3e5c;
+    --color-code-text: #fff;
   }
 
-  .short-post {
-    box-shadow: none;
+  body.day-mode .short-post {
+    box-shadow: 0px 4px 7px rgba(100, 100, 100, .08);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    font-size: 14px;
   }
 }
