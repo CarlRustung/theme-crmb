@@ -197,6 +197,13 @@ a:hover {
   margin: 5rem 0 0;
 }
 
+.e-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
 /* SHORT POSTS */
 
 .short-post {
