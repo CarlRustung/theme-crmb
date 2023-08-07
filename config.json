@@ -69,6 +69,7 @@
 		"itunes_description": "[ITUNES_DESCRIPTION]",
 		"github_username": "carlrustung",
 		"site_id": "[SITE_ID]",
+		"archive-paginate": 5,
 		"paginate_home": false,
 		"paginate_categories": false,
 		"paginate_replies": false,

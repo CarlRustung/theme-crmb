@@ -8,8 +8,9 @@
 			{{ end }}
 		</ul>
 	{{ end }}
-	
-	{{ $list := (where .Site.Pages "Type" "post") }}
+
+	{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 10) }}
+	{{ range $paginator.Pages }}
 	<div class="h-feed">
 		{{ range $list }}
 
