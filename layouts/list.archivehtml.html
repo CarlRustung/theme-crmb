@@ -9,7 +9,7 @@
 		</ul>
 	{{ end }}
 	
-	{{ $list := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 10) }}
+	{{ $list := (where .Site.Pages "Type" "post") }}
 	<div class="h-feed">
 		{{ range $list }}
 
