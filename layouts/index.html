@@ -9,7 +9,7 @@
 <div class="home h-feed">
   <h2 id="home-feed-header">Latest posts:</h2>
 
-	{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 20) }}
+	{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "home_paginate" | default 20) }}
 	{{ range $paginator.Pages }}
 
 		{{ if .Title }}
