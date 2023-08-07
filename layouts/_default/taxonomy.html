@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h1>Wowee, it&rsquo;s the category page for {{ .Title }}</h1>
 
-{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive_paginate" | default 10) }}
+{{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive_paginate" | default 10) }}
 	{{ range $paginator.Pages }}
 
 		{{ if .Title }}
