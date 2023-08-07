@@ -10,9 +10,9 @@
 	{{ end }}
 
 	{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 10) }}
-	{{ range $paginator.Pages }}
+	
 	<div class="h-feed">
-		{{ range $list }}
+		{{ range $paginator.Pages }}
 
 			{{ if .Title }}
 
