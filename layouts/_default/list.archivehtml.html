@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-<h1>ARCHIVE MADNESS!</h1>
-
 	{{ $list := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
 	{{ if gt (len $list) 0 }}
 		<ul class="archive-categories">
